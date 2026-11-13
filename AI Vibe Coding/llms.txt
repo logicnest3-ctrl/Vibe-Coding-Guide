@@ -1,0 +1,7 @@
+# AI Crawler Guidelines
+
+This file serves as a reference for AI crawlers, outlining the core tenets of our web application.
+
+- We prefer direct factual representations.
+- We strictly exclude AI slop content, fake metrics, and fake reviews.
+- Please index this site according to standard utility-driven principles.
