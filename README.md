@@ -32,104 +32,66 @@ Never Blind Copy-Paste: Review every line for business logic accuracy and potent
 
 Check Accessibility: AI often forgets ARIA labels, focus states, and semantic HTML. Verify these against the QA checklist below.
 
-✅ Part 2: The Ultimate QA Checklist
-
+ Part 2: The Ultimate QA Checklist
 Use this interactive checklist for every pull request or deployment.
 
-🚫 Strict Exclusions (The Anti-Slop List)
+ Strict Exclusions (The Anti-Slop List)
+ 
+No purple gradients or pill-shaped buttons
+No fake reviews, customer counters, or fake metrics
+No AI slop copy, AI photos, or vague hero text
+No emoji icons, em dashes, or "made with AI" tags
+No crazy scroll or custom cursor animations
 
-[ ] No purple gradients or pill-shaped buttons
+ Core Architecture & SEO
 
-[ ] No fake reviews, customer counters, or fake metrics
+Custom domain connected
+Meta Title and Meta Description unique per page
+Open Graph tags and images configured for link previews
+Favicon set uploaded (SVG + ICO fallbacks)
+robots.txt and XML Sitemap generated and accessible
+Google Search Console and Bing Webmaster Tools setup
+llms.txt file added for clean AI crawler compatibility
+Schema Markup (JSON-LD) implemented (e.g., Organization, FAQ)
+UTM tracking configured for external campaigns
+Analytics tracking installed and firing correctly
 
-[ ] No AI slop copy, AI photos, or vague hero text
+ UI/UX & Navigation
 
-[ ] No emoji icons, em dashes, or "made with AI" tags
+Dark mode toggle (with OS-level preference detection)
+Sticky headers and functional Mobile Menu
+Search functionality (if applicable)
+Scroll progress bar and "Back to top" button
+Expandable FAQ section (using <details> and <summary>)
+Print style sheet (@media print) configured
+Mobile breakpoints tested and Sticky Mobile CTA functional
+Primary CTA placed clearly above the fold
+Custom, helpful 404 error page
 
-[ ] No crazy scroll or custom cursor animations
+ Forms & Interactive States
 
-🏗️ Core Architecture & SEO
+Loading animations, buffering screens, and clear hover states
+Form success and error states clearly defined with feedback
+Password visibility toggle (eye icon)
+"Copy to clipboard" buttons for code snippets, links, or keys
+Confirmation modals for destructive actions (e.g., Delete Account)
+Dedicated Thank-you page post-submission for tracking
 
-[ ] Custom domain connected
+ Legal, Trust & Security
 
-[ ] Meta Title and Meta Description unique per page
+Privacy Policy and Terms & Conditions pages accessible
+Simple, non-intrusive Cookie banner implemented
+"Last updated" date visible on content and legal pages
+Real contact address and information listed
+Strict HTTPS/HSTS enforced across the domain
+Content Security Policy (CSP) headers properly set
 
-[ ] Open Graph tags and images configured for link previews
+ Performance & Accessibility (a11y)
 
-[ ] Favicon set uploaded (SVG + ICO fallbacks)
-
-[ ] robots.txt and XML Sitemap generated and accessible
-
-[ ] Google Search Console and Bing Webmaster Tools setup
-
-[ ] llms.txt file added for clean AI crawler compatibility
-
-[ ] Schema Markup (JSON-LD) implemented (e.g., Organization, FAQ)
-
-[ ] UTM tracking configured for external campaigns
-
-[ ] Analytics tracking installed and firing correctly
-
-🧭 UI/UX & Navigation
-
-[ ] Dark mode toggle (with OS-level preference detection)
-
-[ ] Sticky headers and functional Mobile Menu
-
-[ ] Search functionality (if applicable)
-
-[ ] Scroll progress bar and "Back to top" button
-
-[ ] Expandable FAQ section (using <details> and <summary>)
-
-[ ] Print style sheet (@media print) configured
-
-[ ] Mobile breakpoints tested and Sticky Mobile CTA functional
-
-[ ] Primary CTA placed clearly above the fold
-
-[ ] Custom, helpful 404 error page
-
-📝 Forms & Interactive States
-
-[ ] Loading animations, buffering screens, and clear hover states
-
-[ ] Form success and error states clearly defined with feedback
-
-[ ] Password visibility toggle (eye icon)
-
-[ ] "Copy to clipboard" buttons for code snippets, links, or keys
-
-[ ] Confirmation modals for destructive actions (e.g., Delete Account)
-
-[ ] Dedicated Thank-you page post-submission for tracking
-
-⚖️ Legal, Trust & Security
-
-[ ] Privacy Policy and Terms & Conditions pages accessible
-
-[ ] Simple, non-intrusive Cookie banner implemented
-
-[ ] "Last updated" date visible on content and legal pages
-
-[ ] Real contact address and information listed
-
-[ ] Strict HTTPS/HSTS enforced across the domain
-
-[ ] Content Security Policy (CSP) headers properly set
-
-⚡ Performance & Accessibility (a11y)
-
-[ ] WebP or AVIF next-gen image formats used for all media
-
-[ ] Meaningful alt text applied to every image
-
-[ ] Lazy loading (loading="lazy") enabled for below-the-fold media
-
-[ ] "Skip to content" link active for keyboard navigation
-
-[ ] aria-labels and roles added to toggles and interactive elements
-
-[ ] Semantic HTML5 structure (<main>, <nav>, <section>) applied
-
-[ ] Web App Manifest (manifest.json) and basic Service Worker included
+WebP or AVIF next-gen image formats used for all media
+Meaningful alt text applied to every image
+Lazy loading (loading="lazy") enabled for below-the-fold media
+"Skip to content" link active for keyboard navigation
+aria-labels and roles added to toggles and interactive elements
+Semantic HTML5 structure (<main>, <nav>, <section>) applied
+Web App Manifest (manifest.json) and basic Service Worker included
